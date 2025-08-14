@@ -28,7 +28,7 @@ function bestTeam(player1, player2) {
 }
 
 const best2 = bestTeam(
-  { name: 'Brazil', foul: 5, cardY: 1, cardR: 0 },
+  { name: 'Brazil', foul: 5, cardY: 1, cardR: 2 },
   { name: 'Argentina', foul: 7, cardY: 0, cardR: 0 }
 );
 console.log(best2);

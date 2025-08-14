@@ -7,5 +7,6 @@ function onlyCharacter(str) {
   const upperCase = removeSpaces.toUpperCase();
   return upperCase;
 }
-const output = onlyCharacter(' ha ck m e 1 @ru.c  n  ');
+
+const output = onlyCharacter(true);
 console.log(output);
